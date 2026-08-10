@@ -6,6 +6,36 @@
 
 body {
     background: radial-gradient(
-        circle, #121212, #1e1e24
+        circle, #121212, #0a192f
     );
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    position: relative;
+    overflow-x: hidden;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.blinking-txt {
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+@keyframes blinking-txt {
+    0% { color: #ff0076; text-shadow: 0 0 15px #ff007f;}
+    33% { color: #00f0ff; text-shadow: 0 0 15px #00f0ff;}
+    66% { color: #ffe600; text-shadow: 0 0 15px #ffe600;}
+    100% { color: #ff007f; text-shadow: 0 0 15px #ff007f;}
 }
