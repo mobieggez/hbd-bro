@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 15px;
+    padding: 20px;
     position: relative;
     overflow-x: hidden;
     
@@ -27,15 +27,97 @@ header {
     padding: 10px 20px;
 }
 
-.blinking-txt {
-    font-size: 2rem;
+.rainbow-text {
+    font-size: 3rem;
     font-weight: 900;
-    letter-spacing: 2px;
+    background: linear-gradient( 90deg, 
+     #ff004d
+     #ff7300
+     #ffd500
+     #00c853
+     #00b0ff
+     #6a00ff
+     #ff00d4
+     #ff004d);
+
+     background-size: 200% 200%;
+     -webkit-background-clip: text;
+     background-clip: text;
+     color: transparent;
+
+     animation: rainbow 3s linear infinite;
 }
 
-@keyframes blinking-txt {
-    0% { color: #ff0076; text-shadow: 0 0 15px #ff007f;}
-    33% { color: #00f0ff; text-shadow: 0 0 15px #00f0ff;}
-    66% { color: #ffe600; text-shadow: 0 0 15px #ffe600;}
-    100% { color: #ff007f; text-shadow: 0 0 15px #ff007f;}
+@keyframes rainbow {
+    0%{
+        background-position: 200% 0;
+    }
+}
+
+.sticker-luffy {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.popup-sticker {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 50%;
+    animation: pop-bounce 1.5s infinite ease-in-out;
+    transition: transform 0.2s;
+}
+
+.popup-sticker:hover {
+    font-size: 0.9rem;
+    color: #ffe600;
+    font-weight: bold;
+}
+
+@keyframes pop-bounce {
+    0%, 100% { transform: scale(1) rotate(-3deg); }
+    50% {transform: scale(1.1) rotate(3deg);}
+}
+
+.slider-container {
+    display: flex;
+    width: calc(220px * 8);
+    animation: scroll-left 12s linear infinite;
+}
+
+.slider-track img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 10px;
+    border-radius: 12px;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0, 0.3);
+}
+
+@keyframes scroll-left {
+    0% { transform: translateX(calc(-220px * 4));}
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 20px;
+}
+
+.nyan-cat {
+    width: 180px;
+    height: auto;
+}
+
+.name-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #00f0ff;
+    text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+    letter-spacing: 2px;
 }
