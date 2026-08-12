@@ -10,7 +10,7 @@ body {
     );
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    min-height: 500vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -70,6 +70,7 @@ header {
     width: 80px;
     height: 80px;
     object-fit: cover;
+    animation: pop-bounch 1.5s infinite ease-in-out;
 }
 
 .sticker-hint {
@@ -96,15 +97,20 @@ header {
     margin: 10px 0;
 }
 
+@keyframes pop-bounch {
+    0%, 100% { transform: scale(1) rotate(-3deg); }
+  50% { transform: scale(1.1) rotate(3deg); }
+}
+
 .slider-track {
     display: flex;
-    width: calc(220px*8);
-    animation: scroll-left 12s linear infinite;
+    width: calc(220px*16);
+    animation: scroll-left 16s linear infinite;
 }
 
 .slider-track img {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 320px;
     object-fit: cover;
     margin: 0 10px;
     border-radius: 0;
