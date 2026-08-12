@@ -38,7 +38,7 @@ header {
      #6a00ff,
      #ff00d4,
      #ff004d);
-
+     filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0,8));
      background-size: 200% auto;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
@@ -103,7 +103,7 @@ header {
     margin: 0 10px;
     border-radius: 10px;
     border: 2px solid #6a00ff;
-    box-shadow: 0 8px 25px rgba(255, 115, 0, 0.3);
+    filter: drop-shadow(0 0 8px #6a00ff);
     transition: transform 0.3s ease;
 }
 
