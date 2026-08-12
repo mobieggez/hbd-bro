@@ -134,7 +134,7 @@ header {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    width: 100px;
+    width: 200px;
     z-index: 16;
 }
 .meme-2 {
@@ -149,13 +149,13 @@ header {
     position: absolute;
     top: 20px;
     left: 500px;
-    width: 150px;
+    width: 200px;
     z-index: 18;
 }
 
 .meme-4 {
     position: absolute;
-    bottom: 40;
+    bottom: 40px;
     left: 120px;
     width: 90px;
     z-index: 30;
