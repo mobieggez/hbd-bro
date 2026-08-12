@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0;
     position: relative;
     overflow-x: hidden;
     
@@ -74,8 +74,11 @@ header {
     width: 80px;
     height: 80px;
     object-fit: cover;
-    animation: pop-bounce 1.5s infinite ease-in-out;
-    transition: transform 0.2s;
+}
+
+.sticker-hint {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffd500;
 }
 
 .popup-sticker:hover {
