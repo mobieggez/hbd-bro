@@ -27,8 +27,8 @@ header {
 }
 
 .rainbow-text {
-    font-size: 8rem;
-    font-weight: 1000;
+    font-size: clamp(2rem, 6vw, 4rem);
+    font-weight: 900;
     background: linear-gradient( 90deg, 
      #ff004d,
      #ff7300,
@@ -118,32 +118,40 @@ header {
 
 .meme-1 {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    width: 250px;
+    bottom: 3%;
+    right: 2%;
+    width: 8vw;
+    min-height: 60px;
+    max-width: 100px;
     z-index: 16;
 }
 .meme-2 {
     position: absolute;
-    top: 140px;
-    right: 150px;
-    width: 130px;
+    top: 15%;
+    right: 5%;
+    width: 7vw;
+    min-height: 50px;
+    max-width: 90px;
     z-index: 17;
 }
 
 .meme-3 {
     position: absolute;
-    top: 80px;
-    right: 700px;
-    width: 200px;
+    top: 2%;
+    right: 15%;
+    width: 7vw;
+    min-width: 50px;
+    max-width: 9opx;
     z-index: 18;
 }
 
 .meme-4 {
     position: absolute;
-    bottom: 240px;
-    left: 70px;
-    width: 200px;
+    bottom: 3%;
+    left: 12%;
+    width: 7vw;
+    min-width: 50px;
+    max-width: 90px;
     z-index: 30;
 }
 
