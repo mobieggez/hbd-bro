@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: radial-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background: conic-gradient(form 0deg, #a18cd1 , #fbc2eb );
     color: #fff;
     min-height: 100vh;
     display: flex;
