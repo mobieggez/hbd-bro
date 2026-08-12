@@ -139,6 +139,27 @@ footer {
 
 .name-title {
     font-family: 'Playfair Display', serif;
+    font-size: 6rem;
+    font-weight: 900;
+    background: linear-gradient( 90deg, 
+     #ff004d,
+     #ff7300,
+     #ffd500,
+     #00c853,
+     #00b0ff,
+     #6a00ff,
+     #ff00d4,
+     #ff004d);
+
+     background-size: 200% auto;
+     color: #ff00d4;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+      background-clip: text;
+     animation: rainbow 3s linear infinite;
+     line-height: 1;
+}
+    font-family: 'Playfair Display', serif;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 4rem;
     font-weight: bold;
