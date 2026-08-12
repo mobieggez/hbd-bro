@@ -24,6 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding: 10px;
     width: 100%;
 }
 
@@ -31,21 +32,22 @@ header {
     font-size: 3rem;
     font-weight: 900;
     background: linear-gradient( 90deg, 
-     #ff004d
-     #ff7300
-     #ffd500
-     #00c853
-     #00b0ff
-     #6a00ff
-     #ff00d4
+     #ff004d,
+     #ff7300,
+     #ffd500,
+     #00c853,
+     #00b0ff,
+     #6a00ff,
+     #ff00d4,
      #ff004d);
 
      background-size: 200% auto;
+     color: #ff00d4;
      -webkit-background-clip: text;
-     background-clip: text;
      -webkit-text-fill-color: transparent;
+      background-clip: text;
      animation: rainbow 3s linear infinite;
-     padding-left: 10px;
+     line-height: 1;
 }
 
 @keyframes rainbow {
@@ -91,7 +93,7 @@ header {
 .slider-container {
     width: 100%;
     overflow: hidden;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .slider-track {
@@ -105,8 +107,8 @@ header {
     height: 200px;
     object-fit: cover;
     margin: 0 10px;
-    border-radius: 12px;
-    border: 3px solid #fff;
+    border-radius: 0;
+    border: 2px solid #6a00ff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0, 0.3);
 }
 
