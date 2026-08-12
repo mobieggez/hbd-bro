@@ -112,20 +112,15 @@ header {
     100% { transform: translateX(calc(-220px * 4));}
 }
 
-.meme-ovelay img {
-    position: fixed;
-    z-index: 9998;
-    pointer-events: none;
-}
-
-.assets-1 {
-    left: 0;
-    top: 0;
-    width: 200px;
-
-}
-
 .meme-4 {
+    position: absolute;
+    z-index: 9999;
+    pointer-events: none;
+    top: 20px;
+    right: 20px;
+}
+
+.meme-2 {
     top: 50px;
     left: 20px;
     width: 100px;
