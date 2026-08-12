@@ -24,12 +24,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 10px;
+    padding: 3px;
     width: 100%;
 }
 
 .rainbow-text {
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 900;
     background: linear-gradient( 90deg, 
      #ff004d,
@@ -63,6 +63,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: -5px;
 }
 
 
@@ -87,8 +88,8 @@ header {
 }
 
 @keyframes pop-bounce {
-    0%, 100% { transform: scale(1) rotate(-3deg); }
-    50% {transform: scale(1.1) rotate(3deg);}
+    0%, 100% { transform: scale(1); }
+    50% {transform: scale(1.1);}
 }
 
 .slider-container {
@@ -138,10 +139,11 @@ footer {
 }
 
 .name-title {
-    font-size: 3.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
     font-weight: bold;
     color: #00f0ff;
     text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
-    letter-spacing: 2px;
+    letter-spacing: 0x;
     scroll-padding-right: 10px;
 }
