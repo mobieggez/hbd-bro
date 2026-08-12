@@ -1,4 +1,4 @@
-const stickerBtn = document.getElementById('stickerbtn');
+const stickerBtn = document.getElementById('stickerBtn');
 
 stickerBtn.addEventListener('click', () => {
   const img = stickerBtn.querySelector('.popup-sticker');
