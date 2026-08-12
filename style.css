@@ -38,7 +38,7 @@ header {
      #6a00ff,
      #ff00d4,
      #ff004d);
-     filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0,8));
+     text-shadow: (0 0 8px rgba(255, 255, 255, 0.8));
      background-size: 200% auto;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
@@ -107,8 +107,7 @@ header {
     transition: transform 0.3s ease;
 }
 
-.slider-track img :hover{
-    width: 25%;
+
 }
 
 @keyframes scroll-left {
