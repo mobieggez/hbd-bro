@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0;
+    padding-left: 50px;
     width: 100%;
 }
 
@@ -105,9 +105,6 @@ header {
     border: 2px solid #6a00ff;
     filter: drop-shadow(0 0 8px #6a00ff);
     transition: transform 0.3s ease;
-}
-
-
 }
 
 @keyframes scroll-left {
