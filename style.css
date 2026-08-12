@@ -71,7 +71,6 @@ header {
     width: 80px;
     height: 80px;
     object-fit: cover;
-    animation: pop-bounch 1.5s infinite ease-in-out;
 }
 
 .sticker-hint {
@@ -95,13 +94,9 @@ header {
 .slider-container {
     width: 100%;
     overflow: hidden;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
-@keyframes pop-bounch {
-    0%, 100% { transform: scale(1) rotate(-3deg); }
-  50% { transform: scale(1.1) rotate(3deg); }
-}
 
 .slider-track {
     display: flex;
@@ -127,15 +122,14 @@ header {
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    padding:0;
-    width: 100%;
+    align-items: center;
+    padding:0 20px;
 }
 
 .nyan-cat {
-    width: 180px;
+    width: 140px;
     height: auto;
-    margin-left: -10%;
+    margin-left: 0%;
 }
 
 .name-title {
@@ -144,6 +138,6 @@ footer {
     font-weight: bold;
     color: #00f0ff;
     text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
-    letter-spacing: 0x;
+    letter-spacing: x;
     scroll-padding-right: 10px;
 }
