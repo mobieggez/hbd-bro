@@ -79,6 +79,12 @@ header {
     font-weight: bold;
 }
 
+button {
+    z-index: 2;
+    position: absolute;
+    padding: auto;
+}
+
 @keyframes pop-bounce {
     0%, 100% { transform: scale(1); }
     50% {transform: scale(1.1);}
