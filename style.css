@@ -116,14 +116,6 @@ header {
     z-index: 10;
 }
 
-.assets-1 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100px;
-    z-index: 3;
-}
-
 .meme-1 {
     position: absolute;
     bottom: 20px;
@@ -141,17 +133,17 @@ header {
 
 .meme-3 {
     position: absolute;
-    top: 20px;
+    top: 60px;
     left: 600px;
-    width: 120px;
+    width: 140px;
     z-index: 18;
 }
 
 .meme-4 {
     position: absolute;
-    bottom: 90px;
+    bottom: 110px;
     left: 40px;
-    width: 100px;
+    width: 120px;
     z-index: 30;
 }
 
