@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -23,8 +23,8 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+    align-items: flex-start;
+    width: 100%;
 }
 
 .rainbow-text {
@@ -40,35 +40,29 @@ header {
      #ff00d4
      #ff004d);
 
-     background-size: 200% 200%;
+     background-size: 200% auto;
      -webkit-background-clip: text;
      background-clip: text;
-     color: transparent;
-
+     -webkit-text-fill-color: transparent;
      animation: rainbow 3s linear infinite;
+     padding-left: 10px;
 }
 
 @keyframes rainbow {
-    0%{
-        background-position: 200% 0;
-    }
+    0%{background-position: 0% center;}
+    100%{background-position: 200% center;}
 }
 
 .sticker-luffy {
-    position: relative;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-}
-
-#stickerbtn {
     background: none;
     border: none;
     padding: 0;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .popup-sticker {
     width: 80px;
@@ -79,6 +73,8 @@ header {
 .sticker-hint {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #ffd500;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
 .popup-sticker:hover {
@@ -93,8 +89,14 @@ header {
 }
 
 .slider-container {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.slider-track {
     display: flex;
-    width: calc(220px * 8);
+    width: calc(220px*8);
     animation: scroll-left 12s linear infinite;
 }
 
@@ -109,19 +111,22 @@ header {
 }
 
 @keyframes scroll-left {
-    0% { transform: translateX(calc(-220px * 4));}
+    0% {transform: translateX(0);}
+    100% { transform: translateX(calc(-220px * 4));}
 }
 
 footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 10px 20px;
+    padding:0;
+    width: 100%;
 }
 
 .nyan-cat {
     width: 180px;
     height: auto;
+    margin-left: -10%;
 }
 
 .name-title {
@@ -130,4 +135,5 @@ footer {
     color: #00f0ff;
     text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
     letter-spacing: 2px;
+    scroll-padding-right: 10px;
 }
