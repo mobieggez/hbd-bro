@@ -27,6 +27,7 @@ header {
 }
 
 .rainbow-text {
+    font-family: 'Playfair Display', serif;
     font-size: 6rem;
     font-weight: 900;
     background: linear-gradient( 90deg, 
