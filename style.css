@@ -66,15 +66,9 @@ header {
 
 
 .popup-sticker {
-    width: 100px;
+    width: 120px;
     height: auto;
     object-fit: cover;
-}
-
-.popup-sticker:hover {
-    font-size: 0.9rem;
-    color: #ffe600;
-    font-weight: bold;
 }
 
 
