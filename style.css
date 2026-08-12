@@ -5,7 +5,7 @@
 }
 
 body {
-    background: radial-gradient(circle, #a18cd1 0%, #fbc2eb 100%);
+    background: radial-gradient(circle, # 0%, #fbc2eb 100%);
     color: #fff;
     min-height: 100vh;
     display: flex;
@@ -27,8 +27,9 @@ header {
 }
 
 .rainbow-text {
-    font-family: 'Playfair Display', serif;
-    font-size: 6rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 4rem;
     font-weight: 900;
     background: linear-gradient( 90deg, 
      #ff004d,
@@ -79,11 +80,6 @@ header {
     font-weight: bold;
 }
 
-button {
-    z-index: 2;
-    position: absolute;
-    padding: auto;
-}
 
 @keyframes pop-bounce {
     0%, 100% { transform: scale(1); }
