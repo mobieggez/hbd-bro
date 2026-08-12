@@ -28,7 +28,7 @@ header {
 
 .rainbow-text {
     font-size: 4rem;
-    font-weight: 900;
+    font-weight: 1000;
     background: linear-gradient( 90deg, 
      #ff004d,
      #ff7300,
@@ -125,8 +125,8 @@ header {
 }
 .meme-2 {
     position: absolute;
-    top: 90px;
-    right: 70px;
+    top: 100px;
+    right: 80px;
     width: 100px;
     z-index: 17;
 }
@@ -135,13 +135,13 @@ header {
     position: absolute;
     top: 60px;
     left: 600px;
-    width: 140px;
+    width: 150px;
     z-index: 18;
 }
 
 .meme-4 {
     position: absolute;
-    bottom: 110px;
+    bottom: 130px;
     left: 40px;
     width: 120px;
     z-index: 30;
