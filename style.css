@@ -5,7 +5,7 @@
 }
 
 body {
-    background: radial-gradient(circle, # 0%, #fbc2eb 100%);
+    background: radial-gradient(circle, #0d1b2a 0%, #050c1a 100%);
     color: #fff;
     min-height: 100vh;
     display: flex;
@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 3px;
+    padding: 0;
     width: 100%;
 }
 
@@ -69,8 +69,8 @@ header {
 
 
 .popup-sticker {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: auto;
     object-fit: cover;
 }
 
@@ -124,7 +124,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0 20px;
+    padding:0 10px;
 }
 
 .nyan-cat {
