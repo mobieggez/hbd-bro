@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: radial-gradient(circle, #0d1b2a 0%, #050c1a 100%);
     color: #fff;
     min-height: 100vh;
@@ -40,7 +40,6 @@ header {
      #ff004d);
 
      background-size: 200% auto;
-     color: #ff00d4;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
       background-clip: text;
