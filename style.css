@@ -112,18 +112,43 @@ header {
     100% { transform: translateX(calc(-220px * 4));}
 }
 
-.meme-4 {
-    position: absolute;
-    z-index: 9999;
-    pointer-events: none;
-    top: 20px;
-    right: 20px;
+.meme-overlay {
+    position: relative;
+    width: 100%;
 }
 
+.assets-1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+}
+
+.meme-1 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 200;
+}
 .meme-2 {
-    top: 50px;
-    left: 20px;
-    width: 100px;
+    position: absolute;
+    top: 150px;
+    right: 70px;
+    z-index: 300;
+}
+
+.meme-3 {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    z-index: 400;
+}
+
+.meme-4 {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    z-index: 500;
 }
 
 footer {
